@@ -8,11 +8,11 @@ if __name__ == '__main__':
     model.train(data='dataset/data.yaml',
                 cache=False,
                 imgsz=640,
-                epochs=100,
-                batch=16,
+                epochs=10,
+                batch=8,
                 close_mosaic=10,
                 workers=4,
-                device='0',
+                device='cpu',
                 optimizer='SGD', # using SGD
                 # resume='', # last.pt path
                 # amp=False, # close amp
