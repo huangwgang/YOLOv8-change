@@ -8,7 +8,7 @@ if __name__ == '__main__':
     model.train(data='dataset/data.yaml',
                 cache=False,
                 imgsz=640,
-                epochs=10,
+                epochs=100,
                 batch=8,
                 close_mosaic=10,
                 workers=4,
