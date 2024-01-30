@@ -1,0 +1,24 @@
+# dataset path
+path: /Users/lixizi/Documents/project/project-git/YOLOv8-change/
+train: ./dataset/classified1/images/train
+val: ./dataset/classified1/images/val
+test: ./dataset/classified1/images/test
+
+# number of classes
+nc: 13
+
+# class names
+names: 
+  0: bearing_cable_seat
+  1: casing_seat
+  2: upper_sleeve
+  3: flat_arm_insulator
+  4: flat_arm_base
+  5: D_upper_sleeve
+  6: lower_sleeve
+  7: Inclined_arm_insulator
+  8: Inclined_arm_base
+  9: D_lower_sleeve
+  10: binaural_sleeve_rotating_binaural
+  11: positioning_wire_clamp
+  12: positioning_support
