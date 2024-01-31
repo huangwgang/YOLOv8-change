@@ -1,0 +1,11 @@
+# dataset path
+path: /Users/lixizi/Documents/project/project-git/YOLOv8-change/
+train: ./dataset/images/train
+val: ./dataset/images/val
+test: ./dataset/images/test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['ship']
