@@ -1,8 +1,8 @@
 # dataset path
 path: /Users/lixizi/Documents/project/project-git/YOLOv8-change/
-train: ./dataset/classified1/images/train
-val: ./dataset/classified1/images/val
-test: ./dataset/classified1/images/test
+train: ./dataset/classified4/images/train
+val: ./dataset/classified4/images/val
+test: ./dataset/classified4/images/test
 
 # number of classes
 nc: 13
